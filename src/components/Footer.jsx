@@ -8,8 +8,8 @@ import { SiCodeforces } from "react-icons/si";
 
 export const Footer = () => {
   return (
-    <div  className="w-16 justify-center  opacity-60  border-white fixed top-[30%]  text-white text-2xl">
-         <div className=" rounded-[20px] shadow-gray-600  bg-white dark:bg-gray-800  ">
+    <div  className="w-16 justify-center  opacity-100  border-white fixed top-[30%] left-[-12px]  text-white text-2xl">
+         <div className=" rounded-[20px] shadow-gray-600   ">
           <ul className=" text-sm text-gray-500 dark:text-gray-400 sm:mt-0 mr justify-center">
              
               <li className="flex justify-center p-4 ml-8">
@@ -19,7 +19,7 @@ export const Footer = () => {
                   <a href="https://leetcode.com/SHUBAMCHAUDHARY/" target="_blank" rel="noreferrer" className="mr-4 hover:text-5xl text-4xl hover:underline md:mr-6"><SiLeetcode className="mx-10 text-[#e1c706]"/></a>
               </li>
               <li className="flex justify-center p-4 ml-8">
-                  <a href="https://github.com/shubamchaudhary" target="_blank" rel="noreferrer" className="mr-4 text-4xl hover:text-5xl hover:underline md:mr-6"><BsGithub className="mx-10 text-black"/></a>
+                  <a href="https://github.com/shubamchaudhary" target="_blank" rel="noreferrer" className="mr-4 text-4xl hover:text-5xl hover:underline md:mr-6"><BsGithub className="mx-10 text-white"/></a>
               </li>
               <li className="flex justify-center p-4 ml-8">
                   <a href="https://www.codechef.com/users/shubam17sam" target="_blank" rel="noreferrer" className="mr-4 text-4xl hover:text-5xl hover:underline md:mr-6"><SiCodechef className="mx-10 text-[#ec9909cc]"/></a>
