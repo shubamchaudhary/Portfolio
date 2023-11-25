@@ -25,7 +25,7 @@ export const Footer = () => {
                   <a href="https://www.codechef.com/users/shubam17sam" target="_blank" rel="noreferrer" className="mr-4 text-4xl hover:text-5xl hover:underline md:mr-6"><SiCodechef className="mx-10 text-[#ec9909cc]"/></a>
               </li>
               <li className="flex justify-center p-4 ml-8">
-                  <a href="https://codeforces.com/profile/sam17y" target="_blank" rel="noreferrer" className="mr-4 text-4xl hover:text-5xl hover:underline md:mr-6"><SiCodeforces className="mx-10 text-yellow-800"/></a>
+                  <a href="https://codeforces.com/profile/sam17" target="_blank" rel="noreferrer" className="mr-4 text-4xl hover:text-5xl hover:underline md:mr-6"><SiCodeforces className="mx-10 text-yellow-800"/></a>
               </li>
               <li className="flex justify-center p-4 ml-8">
                   <a href="https://www.instagram.com/shubam_chaudhary_/" target="_blank" rel="noreferrer" className=" text-4xl hover:text-5xl hover:underline md:mr-6 "><BsInstagram className="mx-10 text-[#bd075ccc]"/></a>
