@@ -6,6 +6,8 @@ import {BsGithub} from 'react-icons/bs'
 import { SiCodeforces } from "react-icons/si";
 
 
+
+
 export const Footer = () => {
   return (
     <div  className="w-16 justify-center  opacity-100  border-white fixed top-[30%] left-[-12px]  text-white text-2xl">

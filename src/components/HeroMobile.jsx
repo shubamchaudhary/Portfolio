@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
-const Hero = () => {
+const HeroMobile = () => {
   return (
-    <section className={`relative w-full md:block hidden h-screen mx-auto`}>
+    <section className={`relative w-full md:hidden block h-screen mx-auto`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -24,8 +24,6 @@ const Hero = () => {
           </p>
         </div>
       </div>
-
-      <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
@@ -48,4 +46,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroMobile;

@@ -29,6 +29,25 @@ import {
   Note,
 } from "../assets";
 
+
+const socials = [
+	{
+		name: 'linkedin',
+		icon: mongodb,
+		link: 'https://www.linkedin.com/in/exslym/',
+	},
+	{
+		name: 'github',
+		icon: mongodb,
+		link: 'https://github.com/exslym/',
+	},
+	{
+		name: 'discord',
+		icon: mongodb,
+		link: 'https://discordapp.com/users/794645643518803978/',
+	},
+];
+
 export const navLinks = [
   {
     id: "about",
@@ -317,4 +336,4 @@ const projects = [
 
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, socials, testimonials, projects };
