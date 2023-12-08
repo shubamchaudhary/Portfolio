@@ -23,6 +23,7 @@ import {
   tesla,
   shopify,
   carrent,
+  codenitw,
   jobit,
   tripguide,
   threejs,
@@ -189,9 +190,32 @@ const testimonials = [
 
 const projects = [
   {
-    name: "LetsConnect...",
+    name: "CodeNITW",
     description:
-      "Created a RealTime chatting MERN stack web application. Technologies used are React, tailwind-css, socket.io-client for rendering messages in real time,react-router-dom for routes, Node.js, MongoDB for database, Socket.IO for realtime messaging, bcrypt for hashing password.",
+      "Created an React based web application for NIT WARANGAL students for SDE preparation. This web application consists DISCUSS Section where announcements are made and students can put their doubts.PROBLEMS section where Strivers SDE sheet along with video solutions is available.CONTESTS section contains all upcoming, past and running contests by CCPD. LEADERBOARD contains the cumulative ranks of all students. DASHBOARD consists of users info and chart showing his/her performance in different contests.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind-CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "pink-text-gradient",
+      },
+       
+    ],
+    image: codenitw,
+    source_code_link: "https://codenitw.vercel.app",
+    visit_link:"",
+  },
+  {
+    name: "LetsConnect",
+    description:
+      "Created a RealTime chatting MERN stack web application where a user can message, send files and photos in real time. Technologies used are React, React-router-dom for creating routes, tailwind-css for styling, socket.io-client for rendering messages in real time, Node.js for backend, MongoDB for database, Socket.IO for realtime messaging, bcrypt for hashing password and cloudinary clouds are used to save files.",
     tags: [
       {
         name: "React",
@@ -222,7 +246,7 @@ const projects = [
   {
     name: "RealEstate",
     description:
-      "Created a Responsive Real Estate website which allows user to sell,rent and buy houses, User can add, edit and delete his listings. Technologies Used are React and Tailwind-CSS are used for Frontend, React-leaflet is used for showing location in map, Firebase Database is used for data management, and react-router-dom is used for  creating routes.",
+      "Created a Responsive Real Estate website which allows user to sell,rent and buy houses, User can add, edit and delete his listings. Technologies Used are React, React-router-dom for creating routes, Tailwind-CSS for styling, React-leaflet for showing location of house in map, Firebase Database is used for data managements, .",
     tags: [
       {
         name: "React",
@@ -264,7 +288,7 @@ const projects = [
     visit_link:"https://movie-reviewed.netlify.app/",
   },
   {
-    name: "LetsWorkout...",
+    name: "LetsWorkout",
     description:
       "Created a Responsive Fitness Exercises App with animations. It uses :React and Tailwind-css are used for frontend, react-router-dom for routes and exerciseDB rapid API is used for fetching animation videos and youtube search rapid API for fetching Youtube videos.",
     tags: [
