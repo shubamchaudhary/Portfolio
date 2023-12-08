@@ -33,16 +33,17 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_cvv8byi',
-        'template_dgrz409',
+        'service_0i90enc',
+        'template_vp8o1sw',
+        
         {
           from_name: form.name,
           to_name: "Shubam Chaudhary",
           from_email: form.email,
-          to_email: "sc922055@student.nitw.ac.in",
+          to_email: "beshubam@gmail.com",
           message: form.message,
         },
-        'jn1bwJIkFr_UtLfRz',
+        'WgFwvvJ-xlYv9kaiV',
       )
       .then(
         () => {
